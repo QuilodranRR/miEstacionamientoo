@@ -1,0 +1,135 @@
+
+ion-title {
+    margin-left: 80% ;
+    background-color: grey;
+}
+
+ion-card {
+    margin-top: 60%;
+    margin-left: 9%;
+    margin-right: 9%;
+    --ion-border-color: black;
+    
+}
+
+h2, h3 {
+    color:white;
+    height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ion-button {
+    width: 100px;
+}
+
+ion-content {
+    --background: transparent; 
+    background-image: url('/assets/parkAppIco.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ocupa toda la altura disponible en el viewport */
+  }
+
+ion-footer {
+    text-align: center;
+    color: whitesmoke;
+}
+ion-card {
+  margin-top: 60%;
+  margin-left: 9%;
+  margin-right: 9%;
+  --ion-border-color: black;
+  border: solid 3px;
+  border-color: white;
+  
+  
+}
+
+
+
+
+
+/* Estilos para la página de inicio de sesión con diseño profesional */
+ion-content {
+  --background: transparent url('/assets/icon/peso.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.inicio {
+  background: rgba(255, 255, 255, 0.4); /* Fondo blanco más transparente */
+  backdrop-filter: blur(5px); /* Efecto de desenfoque */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+ion-input {
+  border: none;
+  border-bottom: 2px solid #3484e8;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 0;
+  font-size: 18px;
+  color: #333;
+  background: transparent; /* Fondo de entrada transparente */
+}
+
+ion-icon {
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+  top: calc(50% - 15px);
+  right: 10px;
+}
+
+ion-button {
+  --border-radius: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.recu{
+  color:white
+}

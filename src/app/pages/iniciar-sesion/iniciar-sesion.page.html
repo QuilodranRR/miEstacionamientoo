@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center"  [fullscreen]="true">
+  <img class="logo" src='/assets/icon/logo.png' />
+
+  <div class="title">
+
+
+    <h2>¿Preparado?</h2>
+    <p>Inicia sesion</p>
+  </div>
+
+
+  <div class="inicio">
+    <ion-input type="text" placeholder="Ingresa Usuario"[(ngModel)]="user"> <ion-icon name="person-outline"></ion-icon></ion-input>
+    
+    <ion-input type="password" placeholder="Ingresa Contraseña"[(ngModel)]="pass"><ion-icon name="eye-outline"></ion-icon></ion-input>
+    <ion-icon bi bi-airplane-engines></ion-icon>
+    <ion-button expand="block" class="ion-margin-top" fill="outline" color="warning" (click)="enviar()" >Iniciar Sesion</ion-button>
+  </div>
+
+  <div>
+    <p class="recu">Recuperar cuentra  <a (click)=" recuperarC()" >Aqui</a></p>
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,50 @@
+
+
+<ion-content class="ion-padding ion-text-center"  [fullscreen]="true">
+  <ion-item >
+    <ion-avatar slot="start">
+      <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    </ion-avatar>
+    <ion-label> <p>Bienvenido  : {{ mensaje }}</p> </ion-label>
+  </ion-item>
+  
+
+  <img class="logo" src='/assets/icon/logo.png' />
+
+  <div class="title">
+    <h2>Bienvenido <ion-icon name="car-sport-outline"></ion-icon></h2>
+    <p>Encuentra tu mejor estacionamiento</p>
+  </div>
+
+
+  <div class="mensaje">
+
+  </div>
+
+
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="play-circle"></ion-icon>
+        Listen Now
+      </ion-tab-button>
+      <ion-tab-button tab="radio">
+        <ion-icon name="radio"></ion-icon>
+        Radio
+      </ion-tab-button>
+      <ion-tab-button tab="library">
+        <ion-icon name="library"></ion-icon>
+        Library
+      </ion-tab-button>
+      <ion-tab-button tab="search">
+        <ion-icon name="search"></ion-icon>
+        Search
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+
+
+</ion-content>
