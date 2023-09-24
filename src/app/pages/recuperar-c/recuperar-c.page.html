@@ -1,29 +1,18 @@
-
-<ion-content [fullscreen]="true">
-
+<ion-content class="ion-padding ion-text-center"  [fullscreen]="true">
 
   <img class="logo" src='/assets/icon/logo.png' />
-  <div class="container">
-  <ion-card color="dark" >
-    
-    <ion-card-header>
-      
-      <ion-card-subtitle style="font-size: 20px;">Recuperar contraseña</ion-card-subtitle>
-      <p> Para recuperar su contraseña ingrese su email</p>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Ingrese su Email:
-      <ion-item>
-        <ion-input label="Email:" type="email" placeholder="Ingrese su email..." color="dark" ion-focusable></ion-input>
-        <ion-button id="miBoton" color="success" shape="block"><ion-icon name="send-outline"></ion-icon>
-        </ion-button>
-      </ion-item>
-    </ion-card-content>
-  </ion-card>
-</div>
 
-  <ion-footer>
-    <p>Park app. todos los derechos reservados© </p>
-  </ion-footer>
+  <div class="title">
+    <h2>Recupera tu Cuenta</h2>
+  
+  </div>
+  <p class="Correo_">Ingresa Correo Electronico</p>
+  <ion-input type="text-ligth" placeholder="Ingresa tu correo"> <ion-icon name="person-outline"></ion-icon></ion-input>
+
+    <ion-button expand="block" class="ion-margin-top" fill="outline" color="primary" >Enviar</ion-button>
+    
+  
+
+
+
 </ion-content>

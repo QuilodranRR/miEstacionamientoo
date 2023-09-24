@@ -13,8 +13,8 @@
 
   <div class="inicio">
     <ion-input placeholder="Nombre de Usuario" ><ion-icon name="person-outline"></ion-icon></ion-input>
-    <ion-input type="mail" placeholder="Ingresa correo" ><ion-icon name="mail-unread-outline"></ion-icon></ion-input>
-    <ion-input type="password" placeholder="contraseña" ><ion-icon name="eye-outline"></ion-icon></ion-input>
+    <ion-input type="mail" placeholder="Ingresa correo" {[ngModel]}="user.correo" ><ion-icon name="mail-unread-outline"></ion-icon></ion-input>
+    <ion-input type="password" placeholder="contraseña" {[ngModel]}="user.password"><ion-icon name="eye-outline"></ion-icon></ion-input>
     <ion-icon bi bi-airplane-engines></ion-icon>
     <ion-button expand="block" class="ion-margin-top" fill="outline" color="warning" >Crear Cuenta</ion-button>
   </div>

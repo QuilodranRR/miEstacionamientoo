@@ -10,7 +10,14 @@ export class RegistrarPage implements OnInit {
 
   constructor( ) { }
 
+  user = {
+    correo: null,
+    password: null
+
+  } 
+
   ngOnInit() {
   }
+
 
 }
